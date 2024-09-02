@@ -1,0 +1,279 @@
+.input-container {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  gap: 1rem;
+}
+.customer_specific_section{
+  width: 68%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+/* .customer_specific_section div{
+  width: 0%;
+} */
+ .submit_custom_info_to_genrate_sop{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+ }
+.customer_specific_section_input_field{
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 0.3rem;
+  outline: none;
+}
+.send_icos_genrate_custom_sop{
+  width: 2.4rem;
+  cursor: pointer;
+}
+.send_icos_genrate_custom_sop:hover{
+  cursor: pointer;
+}
+.input-form-email {
+  min-width: 70%;
+  max-width: 70%;
+  height: 4rem;
+  margin: auto;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 2rem;
+  padding:0rem 1rem;
+}
+
+/* Styling for the file input and icon */
+.input-form-email input[type='file'] {
+  display: none; /* Hide the default file input */
+}
+
+.input-form-email label {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Add some style for the pin icon */
+.fa-paperclip {
+  margin-right: 10px;
+}
+.attachment-icon{
+  width: 30px;
+  cursor: pointer;
+  align-self: flex-end;
+  padding-bottom: 1rem;
+  
+}
+.skeleton-wrapper{
+  width: 65%;
+  margin: 1rem auto;
+}
+.ai_attachment{
+  filter: grayscale(100%) brightness(0%);
+}
+.email_text_upload_text{
+  height: 100%;
+  border: none;
+  width: 85%;
+  outline: none;
+  resize: none;
+  text-align: left;
+  padding: 0px;
+  line-height: 1.5rem;
+  overflow: scroll !important; 
+}
+.email_text_upload_text::placeholder {
+  text-align: left;
+  align-self: flex-end;
+}
+.email_text_upload_text::placeholder {
+  text-align: left;
+  position: absolute;
+  bottom: 1rem; /* Adjust the value to your preference */
+  left: 0;
+  width: 100%;
+  color: #ccc; /* Adjust the color for better visibility */
+}
+.loadder_waittime{
+  margin:4rem auto;
+  width: 4rem;
+}
+.email_text_upload_text.bottom-align {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.timer{
+  width: 100%;
+  /* margin-top: 1rem; */
+  display: flex;
+  justify-content: center;
+  
+}
+.explainable_data{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+}
+.explainable_data hr{
+  margin: auto;
+  width: 72%;
+  height: 2rem;
+}
+.explainable_data .main_data{
+  width: 70%;
+  margin: auto;
+  text-align: start !important;
+  margin-top: 0.6rem;
+}
+.explain_data_documents{
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-title{
+  margin: auto;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.main_data{
+  line-height: 2;
+}
+.main_data .key{
+  display: inline-block;
+  width: 8rem;
+}
+.explainable_data h2{
+  margin: 1rem;
+  /* border-bottom: 2px solid black; */
+}
+/* .resource-info{
+  width: fit-content;
+  min-width: 30%;
+  margin: auto;
+  height: 17.8rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 2px solid black;
+  border-radius: 0.8rem;
+} */
+.resource-info{
+  width: 67%;
+  min-width: 20%;
+  margin: auto;
+  margin-top: 0.5rem;
+  /* height: 10rem; */
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid black;
+  border-radius: 0.8rem;
+}
+.resource-info ul{
+  padding-inline-start: 0rem;
+  margin-block-end: 0rem;
+}
+.resource-info ul li{
+  list-style: none;
+
+  /* margin-bottom: 1.7rem;
+  margin-top: 1.7rem; */
+}
+.resource-info ul li strong{
+  display: inline-block;
+  width: 5rem !important;
+}
+.resultcards{
+  display: flex;
+  margin-top: 0.6rem;
+  gap: 1rem;
+  justify-content: center;
+}
+.resource-with-time{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+.timing_main{
+  margin-top: 0.2rem;
+  border: 1px solid black;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  min-width: 20%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  height: 7.8rem;
+}
+.html-sop {
+  width: 65%;
+  margin: 1rem auto 0rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+.html_content{
+  flex: 2;
+  width: 100%;
+  scrollbar-width: 2rem;
+}
+.genratedIconMainDiv .generated_icon {
+  width: 2rem;
+}
+.html-sop-buttons{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  margin: 0.5rem auto 2rem auto;
+}
+.custom-modal-width  {
+  max-width: 90%;/* Adjust the percentage as needed */
+  max-height: 100vh;
+}
+.html-sop-buttons button{
+  width: 100%;
+  text-align: start;
+  border: 2px solid rgb(63,164,182);
+  background-color:#fff;
+  margin: 0.5rem auto 0.5rem auto;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  color: rgb(63,164,182);
+}
+.show_selected_filedata{
+  /* height: 15rem; */
+  max-height: 15rem;
+  overflow: scroll;
+}
+.customer_specific_section button{
+  text-align: start;
+  border: 2px solid rgb(63,164,182);
+  background-color:#fff;
+  margin: 0.5rem auto 0.5rem auto;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  color: rgb(63,164,182);
+}

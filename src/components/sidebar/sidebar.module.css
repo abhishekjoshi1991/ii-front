@@ -1,0 +1,45 @@
+.usersAndLoginLgoOutOption {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none !important;
+}
+
+.usersAndLoginLgoOutOption div a {
+    text-decoration: none !important;
+}
+
+.profilePicture {
+    width: 4rem;
+    height: 3rem;
+    /* background-color: orange; */
+    border-radius: 100%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.usersAndLoginLgoOutOption .options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3px;
+    padding: 0.8rem 2rem 0.8rem 2rem;
+    color: black;
+    cursor: pointer;
+}
+
+.usersAndLoginLgoOutOption .options:hover {
+    scale: 1.1;
+    color: rgb(0, 0, 0) !important;
+    background-color: rgb(220, 220, 220);
+}
+
+.profilePictureName {
+    margin-bottom: 1rem;
+}
+
+.profilePictureLogo {
+    width: 100%;
+    border-radius: 100%;
+}

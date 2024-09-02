@@ -1,0 +1,144 @@
+.login-container{
+  width: 80%;
+  min-height: 80vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+.input-group1{
+  width: 100%;
+}
+.create-account {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+}
+.create-account a{
+  text-decoration: none !important;
+  color: #7367f0;
+  font-size: large;
+}
+.input-group1 input{
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+}
+.input-group1 input:focus {
+  border-color: #7367f0 !important; 
+}
+.sign2{
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  background-color: #7367f0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.error-message {
+  color: red;
+  font-size: 12px;
+  padding-top: 2px;
+}
+@media screen and (max-width: 910px) {
+  .login-form{
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .login-form{
+    width: 100%;
+  }
+  .login-container{
+    width: 90%;
+  }
+}
+.Google{
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  margin-bottom: 3rem;
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+}
+.orimage{
+  filter: grayscale(100%);
+  width: 100%;
+}
+.donthaveaccount{
+  font-size: 0.9rem !important;
+  margin: 0rem !important;
+  cursor: pointer;
+}
+.donthaveaccount b{
+  color:#7367f0;
+}
+.forgotpass a{
+  margin: 0rem !important;
+  font-size: 0.9rem !important;
+}
+
+
+
+.form-outer{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.icontext{
+  border: 2px solid #eee;
+  padding: 5px 10px 5px 50px;
+  font-size: 18px;
+  line-height: 30px;
+  display: block;
+  width: 100%;
+  outline: 0;
+
+}
+
+.form-input{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.icon{
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+} 

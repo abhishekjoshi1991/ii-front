@@ -1,0 +1,117 @@
+.header {
+  /* background-color: rgba(255, 255, 255, 0); */
+  /* box-shadow: 0rem 0rem 2rem 0.2rem rgba(207, 207, 207, 0.116);
+  border: 1px none rgb(207, 207, 207); */
+  position: relative;
+  width: 100%;
+  z-index: 10;
+  /* position: fixed; */
+}
+
+.mainNav {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: 4.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: 200 !important;
+  color: rgb(139, 139, 139);
+}
+
+.mainNav ul {
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.mainNav ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.mainNav ul li {
+  list-style-type: none;
+  font-size: 1rem;
+  position: relative;
+  padding: 0.6rem 0.8rem;
+  /* border-radius: 0.5rem; */
+  /* border-bottom: 1px solid rgb(255, 255, 255); */
+  cursor: pointer;
+}
+
+.mainNav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem 1rem;
+}
+
+.mainNav ul li:hover {
+  scale: 1.1;
+}
+
+.mainNav ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+  background-color: #ffffff;
+  padding: 0rem 0;
+  padding-top: 1rem;
+  width: 10rem;
+}
+
+.mainNav ul li:hover>ul {
+  display: block;
+}
+
+.mainNav ul li:hover>a {
+  background-color: rgba(25, 99, 209, 0.2);
+}
+
+.mainNav ul li ul li {
+  padding: 0.5rem 1rem;
+}
+
+.mainNav ul li ul li a:hover {
+  background-color: rgba(25, 99, 209, 0.4);
+}
+
+.invert_logo {
+  /* filter: invert(1); */
+  height: 4rem;
+}
+.searchVideos{
+  /* display: none; */
+  font-size: 1rem;
+  height: 2rem;
+  align-self: center;
+  border: none;
+  background-color: #ffffff00;
+  color: #7367f0;
+  padding-left: 0.3rem;
+  padding-bottom: 0.8rem;
+  padding-top: 1.2rem;
+}
+.searchVideos:active {
+  border-color: #ffffff00 !important; /* Change border color when the element is active */
+}
+.searchVideos:focus{
+  outline: none !important;
+}
+.searchBox{
+  border-bottom: 0.2rem solid #7367f0;
+}
+.searchIcon{
+  color: #f7f7f7;
+  padding: 0.2rem;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 100%;
+}

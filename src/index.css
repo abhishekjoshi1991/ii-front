@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+*,
+*::after,
+*::before {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  transition: all .3s ease-in-out;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+/* html::-webkit-scrollbar {
+  display: none;
+} */
+.active li {
+  color: rgb(0, 0, 0) !important;
+  border-bottom:2px solid rgb(255, 255, 255) !important;
+  border-radius: 0rem !important;
+}
+body{
+  min-height: 100vh;
+  overflow: visible !important;
+  font-family: 'Montserrat', sans-serif !important;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
